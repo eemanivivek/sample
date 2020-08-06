@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Feedback</title>
+	<link rel="stylesheet" href="Feedback.css">
+ <script src="https://kit.afontawesome.com/eb09c0f842.js" crossorigin="anonymous"></script> 
+  <style>
+    body{
+      background-image:url('green.JPG');
+      background-attachment:scroll;
+    }   
+    h1{
+  text-align:center;
+  color:white;
+    font-family:Calibri;
+}
+
+#submit{
+  text-align:center;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+div{
+  padding:2%;
+  background-color:white;
+}
+.div1{
+  font-family:castellar;
+}
+.div2{
+  font-family:castellar;
+}
+.div3{
+  font-family:castellar;
+
+}
+
+
+.fcf-form-control{
+  position:relative;
+}
+nav{
+    display:inline-block;
+  padding: 15px;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177);
+  transition: 3s;
+  animation: 3s myAnimation ease linear;
+  border-radius: 40px;
+  box-shadow: 3px 3px 20px #ff3352;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.nav-type {
+  animation: 3s myWorld ease linear;
+}
+a{
+  text-decoration:none;
+  padding:10px;
+  margin: auto 0;
+  font-family:Castellar;
+    color:white;
+}
+@keyframes myGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.active{
+  transition: 1s;
+}
+
+.active1 {
+  transition: 1s;
+}
+
+.active2 {
+  transition: 1s;
+}
+.active3{
+  transition: 1s;
+}
+
+.active4 {
+  transition: 1s;
+}
+
+.active3:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+  margin-top: -100px;
+}
+
+.active2:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active1:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+.active:hover {
+  color: #fff;
+  animation: 1.5s myFlash linear infinite;
+  text-shadow: 2px 2px 30px #fff;
+  transition: 2s;
+}
+
+  </style>
+</head>
+<body>
+    <nav>
+       <a href="real.html">Home</a>
+       <a href="Details.html">Details</a>
+       <a href="education.html">Educational Qualifications</a>
+       <a href="Feedback.html">Feedback</a>
+    </nav>
+    <article>
+    	<h1>Feedback</h1>
+    	<P>Feedback for my page</P>
+    </article>
+    <div>
+  <div class="div1">  
+<form id="name" action="">
+   Your Name: <input type="text" name="your_name" minlength="2" maxlength="60"></form>
+   </div>
+   <hr>
+   <div class="div2">
+   <form id="mail"action="">
+  Your Email address: <input type="text" name="your_name" minlength="2" maxlength="80">
+ </form>
+<hr>
+</div>
+<div class="div3">
+<form><label for="Message" class="message">Your Feedback:</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" ></textarea>
+      </form>
+</div>	  
+<hr>
+<div class="div4">
+<form id="submit" action="">
+  <input type="submit" value="Submit" name="submit" >
+ </form>	  
+</div>
+</div>
+</body>
+</html>
